@@ -1,0 +1,37 @@
+# Environment variables
+.env
+# .env.*
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Test files
+test*.py
+*test.py
+chainlit_app.py
+
+
+# Chainlit files
+chainlit.md
+.files/
+.chainlit/
+
+streamlit-app/.env
