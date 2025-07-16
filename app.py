@@ -581,24 +581,24 @@ Present results with:
 # For LangGraph Cloud deployment
 app = TravelPlannerApp()
 
-def main():
-    """Main function for testing locally"""
-    print("🧳 Multi-Agent Travel Planning System")
-    print("=" * 50)
+# def main():
+#     """Main function for testing locally"""
+#     print("🧳 Multi-Agent Travel Planning System")
+#     print("=" * 50)
     
-    while True:
-        user_input = input("\n🧑 You: ")
+#     while True:
+#         user_input = input("\n🧑 You: ")
         
-        if user_input.lower() in ['quit', 'exit', 'bye']:
-            print("👋 Safe travels!")
-            break
+#         if user_input.lower() in ['quit', 'exit', 'bye']:
+#             print("👋 Safe travels!")
+#             break
         
-        try:
-            response = app.chat(user_input)
-            print(f"\n🤖 Assistant: {response}")
-        except Exception as e:
-            print(f"\n❌ Error: {str(e)}")
+#         try:
+#             response = app.chat(user_input)
+#             print(f"\n🤖 Assistant: {response}")
+#         except Exception as e:
+#             print(f"\n❌ Error: {str(e)}")
 
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     app()
