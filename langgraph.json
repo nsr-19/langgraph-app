@@ -1,10 +1,13 @@
 {
-  "dependencies": ["."],
-  "graphs": {
-    "travel_agent": {
-      "path": "app.py:app",
-      "variable": "app.workflow"
-    }
-  },
-  "env": ".env"
+    "dependencies": [
+        "langchain-google-genai",
+        "langchain-core", 
+        "langgraph",
+        "langchain-tavily",
+        "google-search-results"
+    ],
+    "graphs": {
+        "langgraphapp": "./app.py:app"
+    },
+    "env": ".env"
 }
